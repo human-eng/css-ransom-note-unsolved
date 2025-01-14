@@ -37,7 +37,7 @@ body {
   gap: 20px;
 }
 
-.word > span {
+.word>span {
   position: relative;
   padding: 20px 30px;
   width: max-content;
@@ -83,222 +83,397 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 55px;
+  font-weight: normal;
+  color: rgb(36, 236, 36);
+  text-decoration: wavy;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .didILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .didDTwoLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .theHLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .theELetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendRLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendOLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendNLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendTLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendELetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendNTwoLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendDLetter {
+  font-size: 30px;
+  font-weight: 500;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
+
+
+.one {
+  font-size: 13px;
+  font-weight: 700;
+  color: greenyellow;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.developerELetter {
+
+.two {
+
+  font-size: 33px;
+  font-weight: normal;
+  color: blue;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.developerVLetter {
+
+.three {
+
+  font-size: 21px;
+  font-weight: 700;
+  color: brown;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: monospace;
 }
-.developerETwoLetter {
+
+.four {
+
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(179, 47, 255);
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.developerLLetter {
+
+.five {
+
+  font-size: 35px;
+  font-weight: 700;
+  color: calc(50, 75, 23, 13);
+  text-decoration: double;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.developerOLetter {
+
+.six {
+
+  font-size: 42px;
+  font-weight: 100;
+  color: burlywood;
+  text-decoration: double;
+  text-transform: lowercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.developerPLetter {
+
+.seven {
+
+  font-size: 49px;
+  font-weight: normal;
+  color: orange;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.developerEThreeLetter {
+
+.eight {
+
+  font-size: 56px;
+  font-weight: bold;
+  color: white;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.developerRLetter {
+
+.nine {
+
+  font-size: 63px;
+  font-weight: 300;
+  color: lightskyblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
+.ten {
+
+  font-size: 70px;
+  font-weight: normal;
+  color: rgb(232, 0, 0);
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.developerDLetter {}
+
+.developerELetter {}
+
+.developerVLetter {}
+
+.developerETwoLetter {}
+
+.developerLLetter {}
+
+.developerOLetter {}
+
+.developerPLetter {}
+
+.developerEThreeLetter {}
+
+.developerRLetter {}
 
 /* TAKE word */
 
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
+.takeTLetter {}
+
+.takeALetter {}
+
+.takeKLetter {}
+
+.takeELetter {}
 
 /* UP word */
 
-.upULetter {
-}
-.upPLetter {
-}
+.upULetter {}
+
+.upPLetter {}
 
 /* GARDENING word */
 
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
+.gardeningGLetter {}
+
+.gardeningALetter {}
+
+.gardeningRLetter {}
+
+.gardeningDLetter {}
+
+.gardeningELetter {}
+
+.gardeningNLetter {}
+
+.gardeningILetter {}
+
+.gardeningNTwoLetter {}
+
+.gardeningGTwoLetter {}
 
 /* BECAUSE word */
 
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
+.becauseBLetter {}
+
+.becauseELetter {}
+
+.becauseCLetter {}
+
+.becauseALetter {}
+
+.becauseULetter {}
+
+.becauseSLetter {}
+
+.becauseETwoLetter {}
 
 /* THEY word */
 
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
+.theyTLetter {}
+
+.theyHLetter {}
+
+.theyELetter {}
+
+.theyYLetter {}
 
 /* WANTED word */
 
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
+.wantedWLetter {}
+
+.wantedALetter {}
+
+.wantedNLetter {}
+
+.wantedTLetter {}
+
+.wantedELetter {}
+
+.wantedDLetter {}
 
 /* TO word */
 
-.toTLetter {
-}
-.toOLetter {
-}
+.toTLetter {}
+
+.toOLetter {}
 
 /* IMPROVE word */
 
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
+.improveILetter {}
+
+.improveMLetter {}
+
+.improvePLetter {}
+
+.improveRLetter {}
+
+.improveOLetter {}
+
+.improveVLetter {}
+
+.improveELetter {}
 
 /* THEIR word */
 
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
+.theirTLetter {}
+
+.theirHLetter {}
+
+.theirELetter {}
+
+.theirILetter {}
+
+.theirRLetter {}
 
 /* ROOT word */
 
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
+.rootRLetter {}
+
+.rootOLetter {}
+
+.rootOTwoLetter {}
+
+.rootTLetter {}
 
 /* SKILLS word */
 
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
+.skillsSLetter {}
+
+.skillsKLetter {}
+
+.skillsILetter {}
+
+.skillsLLetter {}
+
+.skillsLTwoLetter {}
+
+.skillsSTwoLetter {}
 
 /* SYMBOLS */
 
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
-}
+.hyphen {}
+
+.exclamation-mark {}
+
+.question-mark {}
